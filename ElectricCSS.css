@@ -1,0 +1,16 @@
+body {
+    background: url(electricWallpaper.jpg) no-repeat;
+  /* Фоновый рисунок */
+  background-size: cover;
+  background-attachment: fixed;
+}
+@font-face {
+    font-family: BadScript-regular;
+    src: url(fonts/BadScript-Regular.ttf);
+}
+.whoisgibson {
+    font-family: BadScript-regular;
+    text-align: center;
+    color: rgb(177, 159, 57);
+    font-size: 15px;
+}

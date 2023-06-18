@@ -1,0 +1,49 @@
+body {
+    background: url(MainWallpaper.jpg) no-repeat;
+  /* Фоновый рисунок */
+  background-size: cover;
+  background-attachment: fixed;
+}
+.wrapper {
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@font-face {
+  font-family: grunger;
+  src: url(fonts/Grunger.ttf);
+}
+
+.neon-text {
+  font-family: grunger;
+  font-size: 5rem;
+ color: white;
+  font-weight: 300;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #312e2e;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.welcome {
+ color:rgb(185, 189, 192);
+ font-size: 20px;
+}
+

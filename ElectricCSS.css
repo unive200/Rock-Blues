@@ -1,5 +1,5 @@
 body {
-    background: url(electricWallpaper.jpg) no-repeat;
+  background: url(electricWallpaper.jpg) no-repeat; 
   /* Фоновый рисунок */
   background-size: cover;
   background-attachment: fixed;
@@ -8,31 +8,80 @@ body {
     font-family: BadScript-regular;
     src: url(fonts/BadScript-Regular.ttf);
 }
-.whoisgibson {
+.gibson {
     font-family: BadScript-regular;
     text-align: center;
     color: rgb(177, 159, 57);
     font-size: 15px;
 }
-.tooltip {
-    position: relative;
-    display: inline-flex;
-  }
-  
-  .tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-  
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
-  }
-  
-  .tooltip:hover .tooltiptext {
-    visibility: visible;
-  }
+.gibson2 {
+  font-family: BadScript-regular;
+  text-align: center;
+  color: rgb(177, 159, 57);
+  font-size: 13px;
+}
+body{
+  font-family: Bad-Script-regular;
+}
+.faq-heading{
+  border-bottom: #777;
+  padding: 20px 60px;
+}
+.faq-container{
+display: block;
+justify-content: left;
+flex-direction: column;
+}
+.hr-line{
+width: 60%;
+margin: left;
+background-color: rgb(177, 159, 57);
+}
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+position: left;
+  color: rgb(177, 159, 57);
+  font-family: BadScript-regular;
+  cursor: pointer;
+  padding: 30px 20px;
+  width: 60%;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin: left;
+}
+.faq-body{
+ margin: left;
+ font-family: BadScript-regular;
+ width: 50%; 
+ padding: auto;
+ color: rgb(228, 195, 10);
+}
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.faq-page:hover {
+background-color:	black;
+opacity: .85;
+}
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+  padding: 0 18px;
+  background-color: black;
+  opacity: .85;
+  display: none;
+  overflow: hidden;
+  color: rgb(228, 195, 10);
+}
+.faq-page:after {
+  content: '\02795';
+  /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: green;
+  float: left;
+  margin-left: 15px;
+}
+.active:after {
+  content: "\2796";
+  color: red;
+  /* Unicode character for "minus" sign (-) */
+}

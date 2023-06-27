@@ -4,6 +4,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
+
 .wrapper {
   width: 50vw;
   height: 50vh;
@@ -16,6 +17,12 @@ body {
   font-family: grunger;
   src: url(fonts/Grunger.ttf);
 }
+@font-face {
+  font-family: BlackRocker;
+  src: url(fonts/BlackRocker.ttf);
+}
+
+
 
 .neon-text {
   font-family: grunger;
@@ -35,6 +42,7 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  transition-duration: 0.4s;
 }
 
 .topnav a:hover {
@@ -43,7 +51,7 @@ body {
 }
 
 .welcome {
- color:rgb(185, 189, 192);
+ color:rgb(54, 103, 141);
  font-size: 20px;
+ font-family: BlackRocker;
 }
-

@@ -14,13 +14,24 @@ body {
     color: rgb(177, 159, 57);
     font-size: 15px;
 }
+.gibson:hover {
+ color:rgb(228, 195, 10);
+}
 .gibson2 {
   font-family: BadScript-regular;
   text-align: center;
   color: rgb(177, 159, 57);
   font-size: 13px;
 }
-body{
+.gibson2:hover {
+  color:rgb(228, 195, 10);
+}
+.zakk {
+  padding: 30px;
+  border: 2px solid #666;
+}
+
+body {
   font-family: Bad-Script-regular;
 }
 .faq-heading{
@@ -62,6 +73,7 @@ position: left;
 .faq-page:hover {
 background-color:	black;
 opacity: .85;
+color:rgb(228, 195, 10);
 }
 /* Style the faq-page panel. Note: hidden by default */
 .faq-body {
@@ -85,4 +97,21 @@ opacity: .85;
   content: "\2796";
   color: red;
   /* Unicode character for "minus" sign (-) */
+}
+.back {
+  border: none;
+  background-color: rgb(121, 110, 50);
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.back:hover {
+  background-color: rgb(228, 195, 10);
+  
 }

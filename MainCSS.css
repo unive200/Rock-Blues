@@ -4,7 +4,6 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
-
 .wrapper {
   width: 50vw;
   height: 50vh;
@@ -12,7 +11,6 @@ body {
   align-items: center;
   justify-content: center;
 }
-
 @font-face {
   font-family: grunger;
   src: url(fonts/Grunger.ttf);
@@ -21,9 +19,6 @@ body {
   font-family: BlackRocker;
   src: url(fonts/BlackRocker.ttf);
 }
-
-
-
 .neon-text {
   font-family: grunger;
   font-size: 5rem;
@@ -51,7 +46,7 @@ body {
 }
 
 .welcome {
- color:rgb(54, 103, 141);
+ color: #ddd;
  font-size: 20px;
- font-family: BlackRocker;
+ font-family: grunger;
 }

@@ -1,0 +1,6 @@
+body {
+ background: url(choicewallpaper.png) no-repeat;
+  /* Фоновый рисунок */
+  background-size: cover;
+  background-attachment: fixed;
+}

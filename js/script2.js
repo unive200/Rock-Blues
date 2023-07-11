@@ -1,4 +1,7 @@
-function askedtext() {
-    alert('скинь текста плиз');
-}
-askedtext();
+let calculator = {
+  
+  };
+  
+  calculator.read();
+  alert( calculator.sum() );
+  alert( calculator.mul() );

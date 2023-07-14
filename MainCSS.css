@@ -5,48 +5,48 @@ body {
   background-attachment: fixed;
 }
 .wrapper {
-  width: 50vw;
+  width: 50vw; 
   height: 50vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: flex; /* отображение элемента */
+  align-items: center; /* выравнивание flex-элементов */
+  justify-content: center; /* распределение текста по центру */
 }
 @font-face {
-  font-family: grunger;
-  src: url(fonts/Grunger.ttf);
+  font-family: grunger; /* а это я так назвал шрифт :) */
+  src: url(fonts/Grunger.ttf); /* ссылка на шрифт */
 }
 @font-face {
-  font-family: BlackRocker;
-  src: url(fonts/BlackRocker.ttf);
+  font-family: BlackRocker; /* а это я так назвал шрифт :) */
+  src: url(fonts/BlackRocker.ttf); /* ссылка на шрифт */
 }
 .neon-text {
-  font-family: grunger;
-  font-size: 5rem;
- color: white;
-  font-weight: 300;
+  font-family: grunger; /* шрифт */
+  font-size: 5rem; /* размер текста */
+ color: white; /* цвет */
+  font-weight: 300; 
 }
 .topnav {
-  overflow: hidden;
-  background-color: #312e2e;
+  overflow: hidden; /* это я наверху нахожусь */
+  background-color: #312e2e; /* фоновый цвет */
 }
 
 .topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  transition-duration: 0.4s;
+  float: left;  /* помещение внутрь левой стороны */
+  color: #f2f2f2; /* цвет */
+  text-align: center; /* расположение текста */
+  padding: 14px 16px; /* величина полей */
+  text-decoration: none; /* декорации текста */
+  font-size: 17px; /* размер текста */
+  transition-duration: 0.4s; /* время, через сколько появится белый цвет */
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: #ddd; /* цвет за фоном */
+  color: black; /* цвет */
 }
 
 .welcome {
  color: #ddd;
  font-size: 20px;
- font-family: grunger;
+ font-family: grunger;  /* ссылка на шрифт */
 }

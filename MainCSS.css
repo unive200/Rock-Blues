@@ -12,11 +12,11 @@ body {
   justify-content: center; /* распределение текста по центру */
 }
 @font-face {
-  font-family: grunger; /* а это я так назвал шрифт :) */
+  font-family: grunger; /* а это я так назвал шрифт */
   src: url(fonts/Grunger.ttf); /* ссылка на шрифт */
 }
 @font-face {
-  font-family: BlackRocker; /* а это я так назвал шрифт :) */
+  font-family: BlackRocker; /* а это я так назвал шрифт */
   src: url(fonts/BlackRocker.ttf); /* ссылка на шрифт */
 }
 .neon-text {

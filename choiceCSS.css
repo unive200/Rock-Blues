@@ -9,11 +9,10 @@ body {
   display: block;
   justify-content: left;
 flex-direction: column;
-
 padding: 0 10px;
-cursor: pointer;
 transition: 0.4s;
 }
 .guitar:hover {
-
+ transition-duration: 0.4s;
+ color: red;
 }
